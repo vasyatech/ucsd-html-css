@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="my_style.css">
+	<title>Welcome to Yummy!</title>
+</head>
+<body>
+	<div id="menu-page">
+		<header class="col-12">
+			<div class="header-logo col-4">
+				<img class="col-11" src="img/logo.jpg" alt="Yammy!">
+			</div>
+			<nav class="col-8">
+	            <ul>
+	                <li class="home-btn">
+	                    <a href="index.html">HOME</a>
+	                </li>
+	                <li class="about-btn">
+	                    <a href="about.html">ABOUT</a>
+	                </li>
+	                <li class="menu-btn">
+	                    <a href="menu.html">MENU</a>
+	                </li>
+	                <li class="contact-btn">
+	                    <a href="contacts.html">CONTACT US</a>
+	                </li>
+	            </ul>
+			</nav>
+		</header>
+		<article class="col-12">
+			<form action="" method="post">
+				<h2>Appetizers</h2>
+				<div class="col-12 row">
+					<div class="col-4 column">
+						<img src="img/app1.jpg" alt="Crispy Calamari Fritti">
+							<input type="checkbox" name="app1" value="app1"/> Crispy Calamari Fritti (Spicy Aioli / Fennel) $15.99
+					</div>	
+					<div class="col-4 column">
+						<img src="img\app2.jpg" alt="Hand Cut Prime Beef Tartare"> 
+						<input type="checkbox" name="app2" value="app2"/> Hand Cut Prime Beef Tartare (Classic Preparation / Crostini) $14.99 
+					</div>
+					<div class="col-4 column">
+						<img src="img\app3.jpg" alt="California Bluefin Tuna “Poke”">
+						<input type="checkbox" name="app3" value="app3"/> California Bluefin Tuna “Poke” (True Ling Cod / Fries / Cole Slaw) $36.99 
+					</div>	
+				</div>
+				<h2>Entrees</h2>
+				<div class="row">
+					<div class="column col-4">
+						<img src="img\ent1.jpg" alt="allast Point Beer Battered Fish And Chips"> 
+						<input type="checkbox" name="ent1" value="ent1"/> Ballast Point Beer Battered Fish And Chips (Spicy Aioli / Fennel) $35.99 
+					</div>
+					<div class="column col-4">
+						<img src="img\ent2.jpg" alt="Traditional Seafood Paella"> 
+						<input type="checkbox" name="ent2" value="ent2"/> Traditional Seafood Paella (Saffron Rice / Shellfish / Chorizo) $34.99 
+					</div>
+					<div class="column col-4">
+						<img src="img\ent3.jpg" alt="Grand Islands Farm Filet Medallions"> 
+						<input type="checkbox" name="ent3" value="ent3"/> Grand Islands Farm Filet Medallions (Sauce “Au Poivre” / Fries / Garden Greens Salad) $36.99 
+					</div>	
+				</div>
+				<h2>Desserts</h2>
+				<div class="row">
+					<div class="column col-4">
+						<img src="img\des1.jpg" alt="Apricot Blackberry Cobbler"> 
+						<input type="checkbox" name="des1" value="des1" class="menu_items"/> Apricot &amp; Blackberry Cobbler (Chamomile Ice Cream, Candied Pistachios) $25.99
+					</div>
+					<div class="column col-4">
+						<img src="img\des2.jpg" alt="Peaches Cream"> 
+						<input type="checkbox" name="des2" value="des2"/> Peaches &amp; Cream (Brioche Bread Pudding, Fresh Peaches, Bourbon Oatmeal Crunch Ice Cream) $24.99 
+					</div>
+					<div class="column col-4">
+						<img src="img\des3.jpg" alt="Chocolate Royale"> 
+						<input type="checkbox" name="des3" value="des3"/> Chocolate Royale (Dark &amp; White Chocolate Mousse, Caramel, Praline Crunch) $26.99
+					</div> 
+				</div>
+				<br/ >
+
+			    <div class="order_form col-7 row">
+			    	<div class="col-6 left-box column">			    		
+				    	<h2>Online Order Form</h2><br/ ><br/ >
+					    <div><label>Full name: <br/ ><input type="text" name="username" required="required" maxlength="50"/> </label></div>
+						<div><label>Email address: <br/ ><input type="email" name="emailaddress" required="required" maxlength="50"/> </label></div>
+						<div><label>Phone number: <br/ ><input type="text" name="phonenumber" required="required" maxlength="50"/> </label></div>
+						<div><label>Delivery instructions: <br/ ><textarea name="deliveryinstr"> </textarea> </label></div>
+					</div>
+					<div class="col-6 right-box column">	
+						<h3>Pay For Your Order</h3>
+						<h4><i>Please have your credit card ready to present to the driver</i></h4><br/ >
+						<p>
+				 			<div><label>Card number: <br/ ><input type="text" name="cardnum" required="required" maxlength="20"/> </label><br/ ></div>
+							<div><label>CVV: <br/><input type="text" name="cardcvv" required="required" maxlength="3"/> </label></div>
+							<div><label>Name on card: <br/ ><input type="text" name="cardname" required="required" maxlength="30"/> </label></div>
+							<div><label>Expiration: <br/ ><input type="text" name="cardexp" required="required" value="MM/YYYY" maxlength="7"/> </label></div>
+							<div><label>Zip code: <br/ ><input type="text" name="cardzip" required="required" maxlength="5"/> </label></div>
+							<input type="submit" value="Place Order" />
+							<label></label>
+						</p>
+					</div>
+				</div>
+			</form>
+		</article>			
+		<footer>
+			<p class="color_footer">© 2018&nbsp;by Yummy. Webdesign V.Tarasov</p>
+		</footer>		
+	</div>	
+</body>
+</html>

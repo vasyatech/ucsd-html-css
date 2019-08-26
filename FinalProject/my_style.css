@@ -1,0 +1,266 @@
+iframe, a, address, body, button, caption, center, div, em, font, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, label, li, nav, object, p, section, span, strong, sub, sup, table, tbody, td, tfoot, th, thead, title, tr, tt, u, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+body, html {
+    /*height: 100%;*/
+    margin-left: 30px;
+    margin-right: 30px;
+    min-width: 600px;
+}
+
+body {
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+nav{
+    display: inline;
+    /*margin-top: 15px;*/
+}
+
+ul {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 14px;    
+}
+
+nav li {
+    display: inline;
+    background-color: #919643;/*#c6cc66;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;    
+    margin: 10px;
+    border: 1px solid #ba8350;
+    box-shadow: 0px 3px 5px 0px #ba8350;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+nav li:hover {
+    background-color: red;
+}
+
+nav a{
+    font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+#home-page .home-btn{
+    background-color: red;    
+    box-shadow: none;    
+}
+
+#menu-page .menu-btn{
+    background-color: red;    
+    box-shadow: none;    
+}
+
+#about-page .about-btn{
+    background-color: red;    
+    box-shadow: none;    
+}
+
+#contact-page .contact-btn{
+    background-color: red;    
+    box-shadow: none;    
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+header{
+    background-color: #e8e18b;
+    border-bottom: 10px solid white;
+}
+
+header img{
+    border-radius: 5px;
+}
+
+.header-logo{
+    width: auto;
+    height: auto;
+}
+
+.color_footer{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+
+article{
+    background-color: #e8e18b;
+}
+
+
+#menu-page article img { 
+    width: 94%; 
+    border-radius: 5px;
+    border: 10px solid #c6cc66;/*#ccc690;#ba8350;*/
+}
+
+.column{
+    float: left;
+}
+
+#menu-page .column {
+    color: #53562a;
+    /*width: 32%;*/
+    padding: 5px;
+    font-weight:bold;
+}
+
+#menu-page .row, #about-page .row {
+    display: flex;  
+}
+
+#menu-page .row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.order_form{
+    border-radius: 5px;
+    border: 10px solid #c6cc66;/*#ccc690;#ba8350;*/
+    padding: 10px;
+}
+
+#menu-page #order_form:after {
+    clear: both;
+}
+
+input{
+
+}
+
+.order_form label{
+    font-size: 11px;
+}
+
+#menu-page h2{
+    font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;    
+    font-weight: 700;
+    font-stretch: normal;
+    font-size: 24px;
+    color: #53562a;
+}
+
+#menu-page h3{
+    font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;    
+    font-weight: 700;
+    font-stretch: normal;
+    font-size: 20px;
+    color: #53562a;
+}
+
+#menu-page h4{
+    font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;    
+    font-weight: 700;
+    font-stretch: normal;
+    font-size: 14px;
+    color: #53562a;
+}
+
+
+#menu-page input[type=submit] {
+    background-color: #919643;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ba8350;
+    box-shadow: 0px 3px 5px 0px #ba8350;
+    font-size: 16px;
+    font-weight: bold;
+
+
+}
+
+#menu-page input[type=text], input[type=email], textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ba8350;
+    border-radius: 4px;
+}
+
+#menu-page input[name="cardcvv"]{
+	width: 15%;
+}
+
+#menu-page input[name="cardexp"]{
+	width: 30%;
+}
+
+#menu-page input[name="cardzip"]{
+	width: 25%;
+}
+
+#menu-page input[type='checkbox'] {
+    width:25px;
+    height:25px;
+}
+
+footer{
+    background-color: #919643;
+    clear: both;
+    border-top: 10px solid white;
+    padding: 15px;
+}
+
+.dinig-img{
+    border-bottom: 10px solid white;
+}
+
+.iframe-container {
+  overflow: hidden;
+  position: relative;
+  margin: 15px;
+}
+
+.iframe-container iframe {
+   border: 0;
+   left: 0;
+   top: 0;
+}
+
+.contact{
+    padding: 25px;
+    text-align: center;
+}
